@@ -1,0 +1,32 @@
+empty_file.o: \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/misc/empty_file.c \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/xtensa/espressif/esp32s3/esp32s3.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_common.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/common/mem.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/common/freq.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/xtensa/xtensa.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/common/skeleton.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_macro.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_internal.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_loops.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_listify.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/clock/esp32s3_clock.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/interrupt-controller/esp32s3-xtensa-intmux.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-gpio-sigmap.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr/dt-bindings/input/esp32-touch-sensor-input.h \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/vendor/espressif/partitions_0x0_amp_4M.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc-pinctrl.dtsi \
+ /Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting/app.overlay

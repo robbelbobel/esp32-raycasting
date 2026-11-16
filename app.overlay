@@ -1,0 +1,32 @@
+&pinctrl {
+	i2c0_custom: i2c0_custom {
+		group1 {
+			pinmux = <I2C0_SDA_GPIO38>, <I2C0_SCL_GPIO39>;
+			bias-pull-up;
+			drive-open-drain;
+			output-high;
+		};
+	};
+};
+
+&i2c0 {
+	status="okay";
+	clock-frequency= <I2C_BITRATE_FAST>;
+
+	pinctrl-0 = <&i2c0_custom>;
+	pinctrl-names = "default";
+
+	display: display@3c {
+		compatible="solomon,ssd1306";
+		reg = <0x3c>;
+
+		height=<64>;
+		width=<128>;
+
+		segment-offset=<0>;
+		page-offset=<0>;
+		display-offset=<0>;
+		multiplex-ratio=<63>;
+		prechargep=<0x22>;
+	};
+};

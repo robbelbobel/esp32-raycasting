@@ -1,0 +1,63 @@
+cmake:
+  application:
+    configuration-dir: '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting'
+    source-dir: '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting'
+  board:
+    name: 'esp32s3_devkitc'
+    path:
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/boards/espressif/esp32s3_devkitc'
+    qualifiers: 'esp32s3/procpu'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/bindings'
+    files:
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting/app.overlay'
+    include-dirs:
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/ambiq/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/atmel/include'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/bouffalolab/include'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/bouffalolab/include/zephyr'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/gigadevice/include'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/infineon/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/microchip/include'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/microchip/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/nuvoton/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/nxp/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/stm32/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/modules/hal/ti/dts'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/include'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/include/zephyr'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/common'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/vendor'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/tricore'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/rx'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/x86'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/xtensa'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/sparc'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/riscv'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/posix'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/arm64'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/arm'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts/arc'
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/dts'
+    user-files:
+     - '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting/app.overlay'
+  kconfig:
+    files:
+     - '/Users/robbetiteca/projects/zephyr-workspace/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig'
+     - '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting/prj.conf'
+    user-files:
+     - '/Users/robbetiteca/projects/zephyr-workspace/applications/esp32-raycasting/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/Users/robbetiteca/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.5.0-rc3'
+    zephyr-base: '/Users/robbetiteca/projects/zephyr-workspace/zephyr'
+version: '0.1.0'
+west:
+  command: '/Users/robbetiteca/projects/zephyr-workspace/.venv/bin/west build -p always -b esp32s3_devkitc/esp32s3/procpu'
+  topdir: '/Users/robbetiteca/projects/zephyr-workspace'
+  version: '1.5.0'
