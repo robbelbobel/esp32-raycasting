@@ -4,6 +4,13 @@
 #include <zephyr/drivers/display.h>
 #include <zephyr/device.h>
 
-void rndr_init();
+/*
+    Initialize Renderer
+
+    @retval Error during initialization process
+*/
+int rndr_init();
+
+int draw_wall(uint8_t length);
 
 #endif

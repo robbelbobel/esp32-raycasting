@@ -1,8 +1,9 @@
 #ifndef GAME_H
 #define GAME_H
 
-void init_game() {
+#include "../engine/render/render.h"
 
-}
+int game_init();
+void tick();
 
 #endif

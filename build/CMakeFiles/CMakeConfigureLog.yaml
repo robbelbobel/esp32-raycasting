@@ -4850,3 +4850,61 @@ events:
       CMAKE_MODULE_PATH:
         - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/cmake/modules"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/cmake/modules/FindTargetTools.cmake:129 (include)"
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/Users/robbetiteca/projects/zephyr-workspace/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:88 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Users/robbetiteca/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    candidate_directories:
+      - "/Users/robbetiteca/zephyr-sdk-1.0.1/gnu/"
+    found: "/Users/robbetiteca/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/Users/robbetiteca/zephyr-sdk-1.0.1/hosttools/usr"
+      ENV{PATH}:
+        - "/Users/robbetiteca/projects/zephyr-workspace/.venv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/bin"
+        - "/Users/robbetiteca/flutter/flutter/bin"
+        - "/Users/robbetiteca/.opam/rocq-8.18/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/robbetiteca/.orbstack/bin"
+        - "/Users/robbetiteca/.orbstack/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...
